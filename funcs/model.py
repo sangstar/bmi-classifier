@@ -4,6 +4,8 @@ from sklearn.model_selection import train_test_split, GridSearchCV, StratifiedKF
 from sklearn.ensemble import RandomForestClassifier
 import json
 
+import warnings
+warnings.filterwarnings("ignore")
 
 bmi_dict = {
     0:'Extremely weak',
